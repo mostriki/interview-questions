@@ -15,7 +15,7 @@ function islandFinder(matrix) {
   let total = 0;
   let visited = [];
 
-  for(var i = 0; i < matrix.length; i++) {
+  for(let i = 0; i < matrix.length; i++) {
     visited[i] = new Array(matrix[i].length).map(function(i) { return false; });
   }
 
